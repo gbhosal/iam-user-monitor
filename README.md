@@ -6,6 +6,9 @@ This function will scan all IAM users from AWS account and creates CSV report co
 
 ### Deployment
 
+##### Code deployment
+Lambda will have to deployed to java8 runtime environment. Code to upload can be retrieved from [this](https://github.com/gbhosal/iam-user-monitor/releases/download/v1.0.0/iam-user-monitor-1.0.0-aws.jar) location.
+
 ##### IAM Policy 
 Creates IAM role which trusts `lambda.amazonaws.com` and has following IAM policy attached, apart from the normal policies that lambda environment needs.
 
