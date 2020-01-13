@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.transformco.hs.user-monitor</groupId>
 	<artifactId>iam-user-monitor</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>iam-user-monitor</name>
 	<description>Demo project for Spring Boot</description>
 
